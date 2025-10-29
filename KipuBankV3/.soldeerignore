@@ -1,0 +1,5 @@
+src/lib/openzeppelin-contracts/certora/**
+src/lib/openzeppelin-contracts/test/**
+src/lib/openzeppelin-contracts/lib/**
+src/lib/forge-std/test/**
+

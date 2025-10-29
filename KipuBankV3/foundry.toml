@@ -1,0 +1,31 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["src/lib"]
+solc_version = "0.8.24"
+
+# Optimizer settings
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+
+# Additional settings
+auto_detect_solc = false
+ffi = false
+
+# Exclude OpenZeppelin test and certora files
+ignored_error_codes = ["transient-storage"]
+deny_warnings = false
+
+# Test settings
+[profile.default.fuzz]
+runs = 256
+
+# RPC endpoints
+[rpc_endpoints]
+sepolia = "${SEPOLIA_RPC_URL}"
+mainnet = "${MAINNET_RPC_URL}"
+
+# Etherscan verification
+[etherscan]
+sepolia = { key = "${ETHERSCAN_API_KEY}" }

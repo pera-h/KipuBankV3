@@ -1,0 +1,26 @@
+{
+    "network": "sepolia",
+    "chainId": 11155111,
+    "kipuBankV3": "0x76dB0c189AC1771baf49baF2A5578BF9952e8bB7",
+    "deployer": "0x917d1e5a9F2fc6adA0a2EB1b5c3Ff3a67c8a47eF",
+    "bankCap": 100000000000000,
+    "withdrawalLimit": 1000000000000,
+    "usdc": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "weth": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+    "universalRouter": "0x3f0Ca1a08e12E2B19F25D2b4f4FAa18cC7f3D52d",
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+    "poolManager": "0x8C4BcBE6b9eF47855f97E675296FA3F6fafa5F1A",
+    "timestamp": 1730206800,
+    "etherscan": "https://sepolia.etherscan.io/address/0x76dB0c189AC1771baf49baF2A5578BF9952e8bB7",
+    "deployed": true,
+    "uniswapV4Official": true,
+    "features": [
+        "Native ETH support with auto-wrap to WETH",
+        "Multi-token deposits",
+        "Uniswap V4 integration with OFFICIAL router",
+        "Official PoolManager configured",
+        "Chainlink price feeds",
+        "Bank cap enforcement",
+        "Withdrawal limits"
+    ]
+}

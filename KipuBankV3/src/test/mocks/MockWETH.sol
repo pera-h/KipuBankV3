@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import "../../src/interfaces/weth/IWETH.sol";
+import "../../interfaces/weth/IWETH.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 /// @title MockWETH
